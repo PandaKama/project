@@ -27,11 +27,10 @@
 						<div class="article">
 							<img src="img/logo1.jpg" />
 							<a class="title" href="#"><h2>%s</h2></a>
-							<p>%s
-							<a href="#">полностью</a></p>
+							<p>%s</p>
 							<div style="clear:both;"></div>
 						</div>
-						',$data["title"],$data["m_desc"]);
+						',$data["title"],$data["desc"]);
 					}
 					while($date = mysql_fetch_array($result));
 				?>
